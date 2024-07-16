@@ -831,10 +831,10 @@ const generateRemark = (index, port) => {
         case 3:
             remark = `📶 自定义+随机IPv4_${index - 1} : ${port}`;
             break;
-	case 4:
-        case 5:
-            remark = `📶 随机 IPv6_${index - 3} : ${port}`;
-            break;
+	//case 4:
+        //case 5:
+          //  remark = `📶 随机 IPv6_${index - 3} : ${port}`;
+            //break;
         default:
             remark = `📶 自定义 IP_${index - 5} : ${port}`;
             break;
