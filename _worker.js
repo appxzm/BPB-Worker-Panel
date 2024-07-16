@@ -825,19 +825,19 @@ const generateRemark = (index, port) => {
     switch (index) {
         case 0:
         case 1:
-            remark = `📶 自定义+CDN域名${index + 1} : ${port}`;
+            remark = `📶 CDN域名${index + 1} : ${port}`;
             break;
         case 2:
         case 3:
-            remark = `📶 自定义+随机IPv4_${index - 1} : ${port}`;
+            remark = `📶 IPv4_${index - 1} : ${port}`;
             break;
-        default:
+	case 4:
+        case 5:
+            remark = `📶 IPv6_${index + 1} : ${port}`;
+            break;
+	 default:
             remark = `📶 自定义 IP_${index - 1} : ${port}`;
-            break;
-	case 5:
-        case 6:
-            remark = `📶 随机 IPv6_${index - 3} : ${port}`;
-            break;
+            break; 
     }
 
     return remark;
