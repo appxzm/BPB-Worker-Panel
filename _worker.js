@@ -836,7 +836,7 @@ const generateRemark = (index, port) => {
           //  remark = `📶 随机 IPv6_${index - 3} : ${port}`;
             //break;
         default:
-            remark = `📶 自定义 IP_${index - 5} : ${port}`;
+            remark = `📶 自定义 IP_${index - 2} : ${port}`;
             break;
     }
 
