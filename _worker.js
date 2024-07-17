@@ -833,10 +833,10 @@ const generateRemark = (index, port) => {
             break;
 	case 4:
         case 5:
-            remark = `📶 IPv6_${index + 1} : ${port}`;
+            remark = `📶 IPv6_${index - 5} : ${port}`;
             break;
 	 default:
-            remark = `📶 自定义 IP_${index - 1} : ${port}`;
+            remark = `📶 自定义 IP_${index - 3} : ${port}`;
             break; 
     }
 
